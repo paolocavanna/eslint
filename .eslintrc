@@ -1,0 +1,37 @@
+{
+	// Personal preferences
+	"rules": {
+		"indent": [2, "tab"],
+		"quotes": [1, "double"],
+		"no-bitwise": 0,
+		"no-undef" : 2,
+		"no-unused-vars": 1,
+		"camelcase": 0,
+		"no-console": 0,
+   		"no-debugger": 1,
+   		"no-alert": 2,
+   		"no-extra-semi": 0,
+   		"no-cond-assign": 1,
+		//ES5 mode
+		"strict": [2, "function"]
+	},
+
+	// Globals
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"node": true,
+		"es6": true
+	},
+	"globals": {
+		"google": true,
+		"Modernizr": true,
+		"require": true,
+		"requirejs": true,
+		"define": true,
+		"TweenMax": true,
+		"TweenLite": true,
+		"TimelineLite": true,
+		"TimelineMax": true
+	}
+}
